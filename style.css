@@ -1,0 +1,39 @@
+
+.main-block {
+    position: absolute;
+    float: left;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    background-color: #7FCCC5;
+}
+.world {
+    position: relative;
+    width: 70%;
+    /*height: auto;*/
+    margin-top: 7%;
+    margin-left: 17%;
+    z-index: 2;
+}
+.wooden-ship {
+    position: absolute;
+    width: 15%;
+    top: 65%;
+    left: 8%;
+    z-index: 3;
+}
+.water {
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    z-index: 4;
+}
+
+.clouds {
+    position: absolute;
+    width: 45%;
+    left: 20%;
+    top: 3%;
+    z-index: 1;
+}
